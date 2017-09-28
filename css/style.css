@@ -310,7 +310,7 @@ nav ul li.current a {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #fff;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
   -webkit-animation: down 1.8s infinite;
@@ -359,11 +359,23 @@ nav ul li.current a {
 .container h3{
   text-align: center;
 }
+.about-image{
+  margin:20px 0;
+}
 .about-image img {
   min-width: 100%;
 }
 .about-text {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.about-text li{
+  width: 30%;
+  text-align: center;
+  margin: 20px 0;
+  word-break: break-all;
 }
 .about-text h3 {
   margin-bottom: 25px;
@@ -379,7 +391,7 @@ nav ul li.current a {
   text-transform: uppercase;
   line-height: 27px;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .progress-bar-style {
   display: block;
@@ -401,7 +413,7 @@ nav ul li.current a {
   position: absolute;
   right: 10px;
   top: -18px;
-  font-size: 13px;
+  /*font-size: 12px;*/
 }
 
 /* Services
@@ -426,11 +438,12 @@ nav ul li.current a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .service-item .icon i {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
 }
 .service-item .icon:after,
 .service-item .icon:before,
@@ -594,15 +607,6 @@ nav ul li.current a {
   box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Testinonial
-==================================================*/
-
-.testinonial-section {
-  background: #f6f6f6;
-}
-.brand-item img {
-  max-width: 100%;
-}
 
 /* Blog
 ==================================================*/
